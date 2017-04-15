@@ -1,0 +1,38 @@
+table {
+  margin: 100px auto;
+  border-collapse: collapse;
+  border-color: #DCDCDC;
+  height: 960px;
+  width: 960px;
+}
+
+table, th, td {
+  border: 1px solid #DCDCDC;
+  text-align: center;
+}
+td{
+  margin: 0;
+}
+
+.drawnOver{
+  background-color: black;
+  border-color: black;
+}
+#resize{
+  text-decoration: none;
+  margin: 0 auto;
+  top: 50px;
+  height: 30px;
+  width: 20%;
+  left: 35%;
+  right: 35%;
+  display: relative;
+  text-align: center;
+
+}
+.container{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
