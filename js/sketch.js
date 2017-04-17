@@ -1,8 +1,5 @@
 $(document).ready(function(){
   defaultGrid();
-  $('.drawBox').hover(function(){
-    $(this).addClass('drawnOver');
-  });
   $('button').click(function(){
     var newGridSize = prompt('How many boxes should be on each side?');
     if (isNaN(parseInt(newGridSize)) === false){
@@ -12,8 +9,8 @@ $(document).ready(function(){
       window.alert("That's not a number! Try again with a real number this time.");
     }
   });
-  $(document).on('mouseenter', '.drawBox',function(){
-      $(this).addClass('drawnOver');
+  $('table').on('mouseenter', '.drawBox',function(){
+      $(this).css('opacity', '+=.1');
   });
 });
 
